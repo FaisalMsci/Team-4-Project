@@ -27,14 +27,13 @@ class BookTest {
 
     @Test
     void testToString() {
-        // Updated expected string with no extra newline before the closing brace
         String expected = "Book\n{\n" +
                 "\ttitle='The Great Gatsby'\n" +
                 "\tauthor_name='F. Scott Fitzgerald'\n" +
                 "\tcategory='Fiction'\n" +
                 "\tpublisher='Scribner'\n" +
                 "\tprice=10.99\n" +
-                "\tavailability=100\n}\n\n";  // Removed extra newline here
+                "\tavailability=100\n}\n\n";  
         assertEquals(expected, book.toString());
     }
     
