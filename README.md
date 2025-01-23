@@ -14,7 +14,6 @@
 - Unit Testing (JUnit for testing search and browse functionalities)
 
 1. **Strategy Pattern**
-2. **Factory Method Pattern**
 
 **Strategy Pattern**
 
